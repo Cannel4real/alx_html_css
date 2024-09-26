@@ -1,1 +1,1 @@
-
+This is a project where i will be turning a design from figma to a working website using HTML and CSS. 
