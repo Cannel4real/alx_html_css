@@ -84,19 +84,92 @@ a {
     width: 162px;
     height: 44px;
     top: 38px;
-
+    color: #fff;
     border: none;
     box-shadow: 0px 2px 20px 0px #00000080;
     background: #C271FF;
     border-radius: 22px;
 }
 
+.people-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 500px;
+    word-wrap: normal;
+    gap: 131px;
+    width: 1009px;
+    height: 237px;
+
+}
+.people-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+    height: 237px;
+    text-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    bottom: 50px;
+}
+.people-container div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.people-container div h3 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+
+}
+.people-container div p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+.people-txt {
+    text-align: center;
+    position: relative;
+    top: 410px;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    color: #fff;
+}
+.learn {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    color: #C271FF;
+
+}
+.hero-mini-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;
+}
 /*quote section*/
 .quote {
     width: 1440px;
     height: 392px;
-    margin-top: 1093px;
-    margin-left: -1px;
     gap: 0px;
     opacity: 0px;
     background: #C271FF;
