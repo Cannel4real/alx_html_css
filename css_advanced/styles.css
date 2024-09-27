@@ -36,3 +36,57 @@ a {
     text-decoration: none;
     padding: 10px;
 }
+
+/*quote section*/
+.quote {
+    width: 1440px;
+    height: 392px;
+    margin-top: 1093px;
+    margin-left: -1px;
+    gap: 0px;
+    opacity: 0px;
+    background: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 53px;
+}
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.txt-wrap {
+    width: 730px;
+    height: 158px;
+
+}
+.txt-wrap blockquote {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.txt-wrap h3 {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+.txt-wrap p {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    
+
+}
