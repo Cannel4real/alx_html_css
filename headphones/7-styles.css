@@ -203,6 +203,11 @@ a:hover{
     height: 180px;
 }
 
+.card-container :hover{
+    background-color: #f4f4f4;
+    transform: scale(1.02);
+}
+
 
 
 .card h3 {
